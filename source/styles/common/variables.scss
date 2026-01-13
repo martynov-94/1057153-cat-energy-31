@@ -1,10 +1,10 @@
 /* здесь используйте глобальные переменные */
-$headings-font: "Oswald", sans-serif;
-$main-text-font: "Lato", sans-serif;
-$headings-color: #000000;
-$main-text-color: #000000;
-
-// colors
 $basic-green: #68b738;
-$basic-gray: #f2f2f2;
-$special-gray: #ebebeb;
+$basic-grey: #f2f2f2;
+$special-grey: #ebebeb;
+$special-dark-grey: #444444;
+
+$important-text-font: "Oswald", sans-serif;
+$usual-text-font: "Lato", sans-serif;
+$important-text-color: #000000;
+$usual-text-color: $special-dark-grey;
