@@ -1,11 +1,18 @@
-.food-type {
-
-}
+.food-type {}
 
 .food-type__title {
-	font-family: $important-text-font;
-	font-size: 24px;
-	line-height: 37px;
-	color: $important-text-color;
-	text-transform: uppercase;
+  font-family: $important-text-font;
+  font-size: 24px;
+  line-height: 37px;
+  color: $important-text-color;
+  text-transform: uppercase;
+}
+
+.food-type__link {
+  font-family: $important-text-font;
+  font-size: 16px;
+  line-height: 16px;
+  color: #000000;
+  text-transform: uppercase;
+  text-decoration: none;
 }
