@@ -1,0 +1,19 @@
+.show-more-card__wrapper {
+  color: $usual-text-color;
+  text-decoration: none;
+}
+
+.show-more-card__title {
+  font-family: $important-text-font;
+  color: $important-text-color;
+  text-transform: uppercase;
+}
+
+.show-more-card__more-link {
+  font-family: $important-text-font;
+  font-size: 16px;
+  line-height: 20px;
+  color: $usual-text-color;
+  text-transform: uppercase;
+  text-decoration: none;
+}

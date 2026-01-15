@@ -1,0 +1,16 @@
+.product-card__link {
+  text-decoration: none;
+}
+
+.product-card__title {
+  font-size: 16px;
+  font-family: $important-text-font;
+  line-height: 20px;
+  font-weight: 400;
+  color: $important-text-color;
+}
+
+.product-card__specs {
+  font-size: 12px;
+  line-height: 16px;
+}
