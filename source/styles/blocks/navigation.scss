@@ -1,11 +1,15 @@
-.navigation__item {
-	font-size: 20px;
-	line-height: 20px;
-	color: $important-text-color;
-	text-transform: uppercase;
-	text-decoration: none;
+.navigation {
+  font-family: $important-text-font;
+}
 
-	& a {
-		text-decoration: none;
-	}
+.navigation__item {
+  font-size: 20px;
+  line-height: 20px;
+  color: $important-text-color;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  & a {
+    text-decoration: none;
+  }
 }
