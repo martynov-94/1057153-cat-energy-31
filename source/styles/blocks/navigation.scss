@@ -13,3 +13,19 @@
     text-decoration: none;
   }
 }
+
+.navigation__menu-toggle {
+  width: 24px;
+  height: 24px;
+
+  background-color: transparent;
+  background-image: url("../../icons/stack.svg#hamburger");
+  border: none;
+}
+
+.navigation--open {
+  .navigation__menu-toggle {
+    background-image: url("../../icons/stack.svg#close-button");
+  }
+}
+
