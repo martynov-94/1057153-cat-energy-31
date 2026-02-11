@@ -1,0 +1,42 @@
+.comparison-slider {
+  position: relative;
+}
+
+.comparison-slider::before {
+  position: absolute;
+  content: "";
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+
+  width: 4px;
+  height: 100%;
+
+  background-color: $muted-color;
+  border-radius: 2px;
+}
+
+.comparison-slider__pic {
+  // left: 50%;
+  // transform: translateX(-50%);
+}
+
+.comparison-slider__pic--after {
+  position: absolute;
+  left: 0;
+}
+
+.comparison-slider__toggle {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+
+  width: 40px;
+  height: 40px;
+
+  background: url("../../icons/stack.svg#slider-thumb") no-repeat center;
+  border: none;
+}

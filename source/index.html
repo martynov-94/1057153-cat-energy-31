@@ -18,9 +18,13 @@
     <!-- Хэдер -->
     <header class="main-header">
       <a class="main-header__logo" href="index.html">
-        <img src="" width="33" height="38" alt="Логотип сайта">
+        <picture>
+          <source media="(min-width: 1440px)" srcset="images/logo-desktop.svg" width="70" height="59" type="image/svg+xml">
+          <source media="(min-width: 768px)" srcset="images/logo-tablet.svg" width="60" height="50" type="image/svg+xml">
+          <img src="images/logo-mobile.svg" width="33" height="38" alt="Логотип сайта">
+        </picture>
       </a>
-      <img class="main-header__company-name" src="" width="101" height="18" alt="Cat Energy">
+      <img class="main-header__company-name" src="images/cat-energy.svg" width="101" height="18" alt="Cat Energy">
       <nav class="main-header__navigation navigation">
         <button class="navigation__menu-toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
         <ul class="navigation__list">
@@ -136,13 +140,13 @@
 
   <!-- Футер -->
   <footer class="main-footer">
-    <img class="main-footer__company-name" src="" width="128" height="24" alt="Cat Energy">
+    <img class="main-footer__company-name" src="images/cat-energy.svg" width="128" height="24" alt="Cat Energy">
     <ul class="main-footer__social-links social-links">
-      <li class="social-links__item"><a class="social-links__link social-links__link--vk" href="#" target="_blank" rel="noreferrer noopener"><span class="visually-hidden">Группа во ВКонтакте</span></a></li>
-      <li class="social-links__item"><a class="social-links__link social-links__link--youtube" href="#" target="_blank" rel="noreferrer noopener"><span class="visually-hidden">Канал на YouTube</span></a></li>
-      <li class="social-links__item"><a class="social-links__link social-links__link--telegram" href="#" target="_blank" rel="noreferrer noopener"><span class="visually-hidden">Канал в Телеграме</span></a></li>
+      <li class="social-links__item"><a class="social-links__link social-links__link--vk" href="https://vk.com/htmlacademy" target="_blank" rel="noreferrer noopener"><span class="visually-hidden">Группа во ВКонтакте</span></a></li>
+      <li class="social-links__item"><a class="social-links__link social-links__link--youtube" href="https://www.youtube.com/user/htmlacademyru" target="_blank" rel="noreferrer noopener"><span class="visually-hidden">Канал на YouTube</span></a></li>
+      <li class="social-links__item"><a class="social-links__link social-links__link--telegram" href="https://t.me/htmlacademy" target="_blank" rel="noreferrer noopener"><span class="visually-hidden">Канал в Телеграме</span></a></li>
     </ul>
-    <a class="main-footer__developer-link" href="#">HTML Academy</a>
+    <a class="main-footer__developer-link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
   </footer>
 </body>
 
