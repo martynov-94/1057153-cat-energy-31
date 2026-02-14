@@ -1,4 +1,6 @@
 .button {
+  padding: 10px;
+
   font-size: 16px;
   font-family: $important-text-font;
   line-height: 20px;
@@ -6,4 +8,5 @@
   text-transform: uppercase;
 
   background-color: $main-color;
+  border: none;
 }

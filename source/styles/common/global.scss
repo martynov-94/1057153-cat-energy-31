@@ -1,5 +1,8 @@
 /* здесь используйте глобальные селекторы img, body, html и так далее */
 body {
+  margin: 0;
+  padding: 0 $page-padding-mobile;
+
   font-family: $usual-text-font;
   font-size: 14px;
   line-height: 18px;

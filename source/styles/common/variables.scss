@@ -1,11 +1,20 @@
 /* здесь используйте глобальные переменные */
+
+// colors:
 $main-color: #68b738;
 $muted-color: #666666;
+$extra-muted-color: #f2f2f2;
 $basic-grey: #f2f2f2;
 $special-grey: #ebebeb;
 $special-dark-grey: #444444;
 
+// fonts:
 $important-text-font: "Oswald", sans-serif;
 $usual-text-font: "Lato", sans-serif;
 $important-text-color: #000000;
 $usual-text-color: $special-dark-grey;
+
+// other:
+$page-padding-mobile: 20px;
+$page-padding-tablet: 30px;
+$page-padding-desktop: 1100px;
