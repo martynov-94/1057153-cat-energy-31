@@ -1,19 +1,38 @@
+.features {
+	padding-bottom: 49px;
+}
+
 .features__title {
   margin: 0;
+	margin-bottom: 40px;
+}
+
+.features__list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
 
 .features__item {
-
+	display: grid;
+	grid-template-columns: 60px 1fr;
+	gap: 20px;
+	align-items: center;
 }
 
 .features__item::before {
   display: block;
   content: "";
-  width: 60px;
+	width: 60px;
+  flex-basis: 60px;
   height: 60px;
 
   background: $main-color url("../../icons/stack.svg#features-leaf") no-repeat center;
   background-size: 25px 28px;
+}
+
+.features__item:not(:last-of-type) {
+	margin-bottom: 20px;
 }
 
 .features__item:nth-of-type(2)::before {
