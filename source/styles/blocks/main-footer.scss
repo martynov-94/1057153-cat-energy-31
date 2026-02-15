@@ -1,6 +1,70 @@
+.main-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 ($page-padding-mobile * -1);
+  padding: 40px $page-padding-mobile;
+
+  background-color: $extra-muted-color;
+}
+
+.main-footer__company-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%
+}
+
+.main-footer__company-name::after {
+  @include delimiter;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.main-footer__developer-link-container {
+   width: 100%;
+}
+
+.main-footer__developer-link-container::before {
+  @include delimiter;
+  margin: 20px 0;
+}
+
 .main-footer__developer-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
   font-size: 16px;
   line-height: 20px;
   color: $special-dark-grey;
   text-decoration: none;
+  text-align: center;
+}
+
+.main-footer__developer-link:active {
+  opacity: 0.3;
+}
+
+.main-footer__developer-link::after {
+  display: block;
+  content: "";
+  width: 27px;
+  height: 34px;
+
+  -webkit-mask: no-repeat center;
+  mask: no-repeat center;
+  background-color: $muted-color;
+  $image-link: url("../../icons/stack.svg#html-academy-logo");
+  -webkit-mask-image: $image-link;
+  mask-image: $image-link;
+}
+
+.main-footer__developer-link:hover::after,
+.main-footer__developer-link:focus::after {
+  background-color: $main-color;
+}
+
+.main-footer__developer-link:active::after {
+  opacity: 0.3;
 }

@@ -8,13 +8,9 @@
 }
 
 .food-type::after {
-  display: block;
-  content: "";
+  @include delimiter;
   grid-column: 1 / -1;
   margin-bottom: 15px;
-  height: 1px;
-
-  background-color: #d9d9d9;
 }
 
 .food-type__bg-picture-container {

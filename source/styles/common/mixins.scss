@@ -7,3 +7,11 @@
     src: $src;
   }
 }
+
+@mixin delimiter {
+  display: block;
+  content: "";
+  height: 1px;
+
+  background-color: #d9d9d9;
+}

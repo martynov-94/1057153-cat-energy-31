@@ -8,3 +8,9 @@ body {
   line-height: 18px;
   color: $usual-text-color;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}

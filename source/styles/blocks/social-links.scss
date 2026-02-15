@@ -1,3 +1,13 @@
+.social-links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
 .social-links__link {
   display: block;
   width: 27px;
@@ -25,16 +35,19 @@
 }
 
 .social-links__link--vk::before {
-  -webkit-mask-image: url("../../icons/stack.svg#socials-vk");
-  mask-image: url("../../icons/stack.svg#socials-vk");
+  $image-link: url("../../icons/stack.svg#socials-vk");
+  -webkit-mask-image: $image-link;
+  mask-image: $image-link;
 }
 
 .social-links__link--youtube::before {
-  -webkit-mask-image: url("../../icons/stack.svg#socials-youtube");
-  mask-image: url("../../icons/stack.svg#socials-youtube");
+  $image-link: url("../../icons/stack.svg#socials-youtube");
+  -webkit-mask-image: $image-link;
+  mask-image: $image-link;
 }
 
 .social-links__link--telegram::before {
-  -webkit-mask-image: url("../../icons/stack.svg#socials-telegram");
-  mask-image: url("../../icons/stack.svg#socials-telegram");
+  $image-link: url("../../icons/stack.svg#socials-telegram");
+  -webkit-mask-image: $image-link;
+  mask-image: $image-link;
 }
